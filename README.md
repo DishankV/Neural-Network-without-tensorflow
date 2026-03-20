@@ -107,28 +107,6 @@ Training is performed in mini-batches instead of:
 - Pure SGD (too noisy)
 
 ---
-
-## 📂 Project Structure
-
-```bash
-deep_nn_from_scratch/
-│
-├── main.py              # Main training and evaluation script
-├── model.py             # Deep neural network implementation
-├── activations.py       # ReLU, ReLU derivative, Softmax
-├── losses.py            # Cross-Entropy loss
-├── utils.py             # One-hot encoding, accuracy, confusion matrix, mini-batches
-├── requirements.txt     # Project dependencies
-└── README.md            # Project documentation
-
-Input Layer (4)
-    ↓
-Hidden Layer 1 (16) + ReLU
-    ↓
-Hidden Layer 2 (8) + ReLU
-    ↓
-Output Layer (3) + Softmax
-
 📚 Learning Outcomes
 
 By building this project, the following concepts were implemented and understood in depth:
@@ -142,3 +120,17 @@ Gradient-based optimization
 Weight initialization strategies
 Batch training techniques
 Model evaluation and persistence
+
+
+## 📂 Project Structure
+
+```bash
+deep_nn_from_scratch/
+│
+├── main.py              # Main training and evaluation script
+├── model.py             # Deep neural network implementation
+├── activations.py       # ReLU, ReLU derivative, Softmax
+├── losses.py            # Cross-Entropy loss
+├── utils.py             # One-hot encoding, accuracy, confusion matrix, mini-batches
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
